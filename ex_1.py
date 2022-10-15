@@ -7,7 +7,7 @@ try:
                 sys.stdout.write("*")
             else:
                 sys.stdout.write(" ")
-            print(' ')
+        print(' ')
 except Exception as ex:
     print(f"error information:{ex}")
 finally:
