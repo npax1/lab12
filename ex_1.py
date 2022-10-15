@@ -1,9 +1,9 @@
 import sys
 try:
-    vel = int(input("розмір квадрату"))
-    for i in range(vel):
-        for j in range(vel):
-            if i==0 or j==0 or i== vel-1 or j == vel-1:
+    num_1 = int(input("розмір квадрату"))
+    for width in range(num_1):
+        for long in range(num_1):
+            if width == 0 or long == 0 or width == num_1-1 or long == num_1-1:
                 sys.stdout.write("*")
             else:
                 sys.stdout.write(" ")
